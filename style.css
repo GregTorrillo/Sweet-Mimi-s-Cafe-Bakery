@@ -1,0 +1,546 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background: #A68F7E;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* -------------------WELCOME------------------ */
+.welcome {
+  width: 60%;
+  height: 580px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/fruit-flowers-crop.jpg);
+  background-size: cover;
+}
+.welcome-row1 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 100px;
+}
+.logo {
+  width: 20%;
+  padding-top: 60px;
+}
+ul {
+  display: flex;
+  padding: 0 75px 0 100px;
+}
+.navListItem {
+  padding:0 20px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 15px;
+}
+.nav-links:hover {
+  color: #FF8800;
+}
+.nav-icons {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.welcome-row2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+h1 {
+  font-size: 54px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.searchBoxButton {
+  display: flex;
+  margin-top: 15px;
+}
+.search-box {
+  width: 285px;
+  height: 30px;
+  background: #white;
+  border: 1px solid #D9DBE7;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+::placeholder {
+	font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #D9DBE7;
+	padding-left: 10px;
+}
+.welcome-button {
+  width: 80px;
+  height: 30px;
+  background: #FF8800;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+	margin-left: -5px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+.facebook, .twitter, .instagram {
+  display: flex;
+  padding-right: 40px;
+}
+.social-icons {
+  width: 100%;
+  fill: #FF8800;
+  padding-right: 5px;
+}
+.social-number {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 2px;
+}
+/* -------------------DISCOVER------------------ */
+.discover {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+  background-image: url(../images/pie.jpg);
+  background-size: cover;
+}
+.discoverAbout, .discoverHeadline, .discoverParagraph, .discoverButton {
+  padding:0 130px 0 350px;
+}
+.discoverAbout {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FF8800;
+  padding-bottom: 5px;
+}
+.discoverHeadline {
+  font-size: 44px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.discoverParagraph {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #87879C;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.discoverButton {
+  margin-top: 20px;
+}
+.discoverMenuButton {
+  width: 80px;
+  height: 30px;
+  background: #FF8800;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.discoverButtonArrow {
+  width: 30px;
+  height: 30px;
+  background: #FFAA4D;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -5px;
+}
+
+/* -------------------SPECIALTY------------------  */
+.specialty {
+  width: 60%;
+  height: 800px;
+  margin: auto;
+  background: #F2F6F7;
+}
+.specialty-row1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.specialtyAbout {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FF8800;
+  padding-bottom: 5px;
+}
+.specialtyHeadline {
+  font-size: 44px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.specialtyList {
+  display: flex;
+  justify-content: center;
+}
+.specialtyItem {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.specialty-links {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px 15px 20px;
+  border-bottom: 1px solid lightgray;
+}
+.specialty-links:hover {
+  color: #FF8800;
+  border-bottom: 2px solid #FF8800;
+}
+.specialty-row2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.specialty-column1, .specialty-column2, .specialty-column3, .specialty-column4 {
+  width: 20%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.specialty-column1-row1, .specialty-column1-row2, .specialty-column2-row1, .specialty-column2-row2, .specialty-column3-row1, .specialty-column3-row2, .specialty-column4-row1, .specialty-column4-row2 {
+  width: 100%;
+  height: 230px;
+}
+.specialty-row3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specialtyOrangeDots {
+  width: 15%;
+}
+.image {
+  position: relative;
+  width: 100%;
+}
+.specialty-column1-row1 {
+  display: block;
+  width: 100%;
+}
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image_overlay:hover {
+  opacity: 1;
+}
+.image_title {
+  font-size: 20px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 700;
+  color: white;
+}
+.image_stars {
+  width: 25%;
+  margin: -5px 0;
+}
+.image_description {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 30px;
+}
+.image_button {
+  width: 80px;
+  height: 30px;
+  background: #FF8800;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* -------------------OPENING HOURS------------------  */
+.openingHours {
+  width: 60%;
+  height: 800px;
+  margin: auto;
+  background-image: url(../images/white-tableware.jpg);
+  background-size: cover;
+}
+.openingHours-row1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.openingBook {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FF8800;
+  padding-bottom: 5px;
+}
+.openingHeadline {
+  font-size: 44px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.orangeTelephone {
+  width: 3%;
+  padding-top: 40px;
+}
+.openingCallNow {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+  padding-top: 10px;
+}
+.openingNumber {
+  font-size: 22px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 500;
+  color: #FF8800;
+  padding-top: 15px;
+}
+.openingHours-row2 {
+  width: 100%;
+  height: 100px;
+  padding: 25px 300px 0 300px;
+}
+.openingHoursDays, .openingHoursTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.openingHoursTime {
+  padding-top: 15px;
+}
+.openingHoursDays-row {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+.openingHoursTime-row {
+  font-size: 18px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 500;
+  color: black;
+}
+.openingHours-row3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+video {
+  width: 50%;
+}
+/* .fruit-bowl {
+  width: 55%;
+  position: relative;
+} */
+.orangeArrow {
+  width: 5%;
+}
+.orangeArrow:hover {
+  color: black;
+  font-weight: bold;
+}
+/* -------------------CUSTOMER------------------  */
+.customer {
+  width: 60%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: #FBFBFC;
+  padding: 0 150px;
+}
+.customerTestimonials {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FF8800;
+  padding-bottom: 5px;
+}
+.customerHeadline {
+  font-size: 44px;
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  padding: 10px 0 50px 0;
+}
+.customerImage {
+  border-radius: 50%;
+  height: 100px;
+}
+.customerName {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-top: 15px;
+}
+.customerOccupation {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: gray;
+  padding-top: 5px;
+}
+.customerStars {
+  width: 10%;
+}
+.customerParagraph {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: gray;
+  line-height: 20px;
+}
+.orangeDots {
+  width: 15%;
+  margin-top: -50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
