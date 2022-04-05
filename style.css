@@ -71,7 +71,9 @@ table {
 /*******************************************/
 
 body {
-background: #A68F7E;
+/* background: #A68F7E; */
+background-image: url(../images/wallpaper_02.png);
+/* background-size: cover; */
 }
 
 
@@ -81,7 +83,7 @@ background: #A68F7E;
 
 /* -------------------WELCOME------------------ */
 .welcome {
-  width: 60%;
+  width: 75%;
   height: 580px;
   margin: auto;
   display: flex;
@@ -94,23 +96,21 @@ background: #A68F7E;
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 0 0 100px;
 }
 .logo {
   width: 20%;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 ul {
   display: flex;
-  padding: 0 75px 0 100px;
 }
 .navListItem {
   padding:0 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 .nav-links {
   text-decoration: none;
@@ -118,7 +118,7 @@ ul {
   padding-bottom: 15px;
 }
 .nav-links:hover {
-  color: #FF8800;
+  color: #EE2B7B;
 }
 .nav-icons {
   width: 100%;
@@ -131,13 +131,14 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
+	align-items: flex-start;
+  padding: 50px 0 0 150px;
 }
 h1 {
   font-size: 54px;
   font-family: 'Yeseva One', serif;
   font-weight: 400;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .searchBoxButton {
   display: flex;
@@ -162,7 +163,7 @@ h1 {
 .welcome-button {
   width: 80px;
   height: 30px;
-  background: #FF8800;
+  background: #EE2B7B;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -183,7 +184,7 @@ h1 {
 }
 .social-icons {
   width: 100%;
-  fill: #FF8800;
+  fill: #EE2B7B;
   padding-right: 5px;
 }
 .social-number {
@@ -194,24 +195,24 @@ h1 {
 }
 /* -------------------DISCOVER------------------ */
 .discover {
-  width: 60%;
+  width: 75%;
   height: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 100px;
+	align-items: flex-start;
   background-image: url(../images/pie.jpg);
   background-size: cover;
+	background-position: center;
+	padding: 0 300px 0 575px;
 }
-.discoverAbout, .discoverHeadline, .discoverParagraph, .discoverButton {
-  padding:0 130px 0 350px;
-}
+
 .discoverAbout {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #FF8800;
+  color: #EE2B7B;
   padding-bottom: 5px;
 }
 .discoverHeadline {
@@ -234,7 +235,7 @@ h1 {
 .discoverMenuButton {
   width: 80px;
   height: 30px;
-  background: #FF8800;
+  background: #EE2B7B;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -246,7 +247,7 @@ h1 {
 .discoverButtonArrow {
   width: 30px;
   height: 30px;
-  background: #FFAA4D;
+  background: #e68eb2;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -259,7 +260,7 @@ h1 {
 
 /* -------------------SPECIALTY------------------  */
 .specialty {
-  width: 60%;
+  width: 75%;
   height: 800px;
   margin: auto;
   background: #F2F6F7;
@@ -273,10 +274,10 @@ h1 {
   justify-content: center;
 }
 .specialtyAbout {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #FF8800;
+  color: #EE2B7B;
   padding-bottom: 5px;
 }
 .specialtyHeadline {
@@ -290,7 +291,7 @@ h1 {
   justify-content: center;
 }
 .specialtyItem {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   padding-top: 40px;
@@ -302,8 +303,8 @@ h1 {
   border-bottom: 1px solid lightgray;
 }
 .specialty-links:hover {
-  color: #FF8800;
-  border-bottom: 2px solid #FF8800;
+  color: #EE2B7B;
+  border-bottom: 2px solid #EE2B7B;
 }
 .specialty-row2 {
   width: 100%;
@@ -331,7 +332,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.specialtyOrangeDots {
+.specialtyPinkDots {
   width: 15%;
 }
 .image {
@@ -359,6 +360,7 @@ h1 {
 }
 .image_overlay:hover {
   opacity: 1;
+	cursor: pointer;
 }
 .image_title {
   font-size: 20px;
@@ -380,7 +382,7 @@ h1 {
 .image_button {
   width: 80px;
   height: 30px;
-  background: #FF8800;
+  background: #EE2B7B;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -390,7 +392,7 @@ h1 {
 }
 /* -------------------OPENING HOURS------------------  */
 .openingHours {
-  width: 60%;
+  width: 75%;
   height: 800px;
   margin: auto;
   background-image: url(../images/white-tableware.jpg);
@@ -405,10 +407,10 @@ h1 {
   justify-content: flex-end;
 }
 .openingBook {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #FF8800;
+  color: #EE2B7B;
   padding-bottom: 5px;
 }
 .openingHeadline {
@@ -417,7 +419,7 @@ h1 {
   font-weight: 400;
   padding-top: 15px;
 }
-.orangeTelephone {
+.pinkTelephone {
   width: 3%;
   padding-top: 40px;
 }
@@ -432,7 +434,7 @@ h1 {
   font-size: 22px;
   font-family: 'Yeseva One', serif;
   font-weight: 500;
-  color: #FF8800;
+  color: #EE2B7B;
   padding-top: 15px;
 }
 .openingHours-row2 {
@@ -449,7 +451,7 @@ h1 {
   padding-top: 15px;
 }
 .openingHoursDays-row {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: black;
@@ -469,7 +471,7 @@ h1 {
   position: relative;
 }
 video {
-  width: 50%;
+  width: 40%;
 }
 /* .fruit-bowl {
   width: 55%;
@@ -484,7 +486,7 @@ video {
 }
 /* -------------------CUSTOMER------------------  */
 .customer {
-  width: 60%;
+  width: 75%;
   height: 600px;
   margin: auto;
   display: flex;
@@ -493,13 +495,13 @@ video {
   text-align: center;
   align-items: center;
   background: #FBFBFC;
-  padding: 0 150px;
+  padding: 0 250px;
 }
 .customerTestimonials {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #FF8800;
+  color: #EE2B7B;
   padding-bottom: 5px;
 }
 .customerHeadline {
@@ -537,7 +539,7 @@ video {
   color: gray;
   line-height: 20px;
 }
-.orangeDots {
+.pinkDots {
   width: 15%;
   margin-top: -50px;
 }
