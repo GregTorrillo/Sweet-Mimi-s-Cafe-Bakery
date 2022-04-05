@@ -71,9 +71,7 @@ table {
 /*******************************************/
 
 body {
-/* background: #A68F7E; */
 background-image: url(../images/wallpaper_02.png);
-/* background-size: cover; */
 }
 
 
@@ -102,6 +100,10 @@ background-image: url(../images/wallpaper_02.png);
 .logo {
   width: 20%;
   padding-top: 100px;
+}
+.logo:hover {
+  transform: scale(0.98);
+	cursor: pointer;
 }
 ul {
   display: flex;
@@ -172,6 +174,10 @@ h1 {
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.welcome-button:hover {
+  transform: scale(0.98);
+	cursor: pointer;
 }
 .social-media {
   display: flex;
@@ -244,6 +250,10 @@ h1 {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.discoverMenuButton:hover {
+  transform: scale(0.98);
+	cursor: pointer;
+}
 .discoverButtonArrow {
   width: 30px;
   height: 30px;
@@ -256,6 +266,10 @@ h1 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: -5px;
+}
+.discoverButtonArrow:hover {
+  transform: scale(0.98);
+	cursor: pointer;
 }
 
 /* -------------------SPECIALTY------------------  */
@@ -473,16 +487,12 @@ h1 {
 video {
   width: 40%;
 }
-/* .fruit-bowl {
-  width: 55%;
-  position: relative;
-} */
-.orangeArrow {
+.pinkArrow {
   width: 5%;
 }
-.orangeArrow:hover {
-  color: black;
-  font-weight: bold;
+.pinkArrow:hover {
+  transform: scale(0.98);
+	cursor: pointer;
 }
 /* -------------------CUSTOMER------------------  */
 .customer {
