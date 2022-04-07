@@ -553,6 +553,66 @@ video {
   width: 15%;
   margin-top: -50px;
 }
+
+
 /******************************************
-/* ADDITIONAL STYLES
+/* MEDIA QUERIES
 /*******************************************/
+/* ------------------MEDIA QUERY-LAPTOP---------------------- */
+
+@media screen and (min-width: 1400px) and (max-width: 1900px ) {
+
+	/* -------------------WELCOME------------------ */
+
+	.logo {
+	  width: 20%;
+	  padding-top: 75px;
+	}
+	.navListItem {
+	  padding:0 15px;
+	  font-size: 18px;
+	}
+	.welcome-row2 {
+	  padding: 0 0 0 75px;
+	}
+	h1 {
+	  font-size: 46px;
+	}
+
+	/* -------------------DISCOVER------------------ */
+	.discover {
+		padding: 0 150px 0 400px;
+	}
+	.discoverHeadline {
+	  font-size: 40px;
+	}
+
+/* -------------------SPECIALTY------------------  */
+	.specialty {
+	  height: 700px;
+	}
+	.specialtyHeadline {
+	  font-size: 40px;
+	}
+
+	.specialty-row2 {
+	  height: 400px;
+	}
+	.specialty-column1, .specialty-column2, .specialty-column3, .specialty-column4 {
+	  height: 400px;
+	  gap: 1rem;
+	}
+	.specialty-column1-row1, .specialty-column1-row2, .specialty-column2-row1, .specialty-column2-row2, .specialty-column3-row1, .specialty-column3-row2, .specialty-column4-row1, .specialty-column4-row2 {
+	  height: 200px;
+	}
+
+
+	.image {
+	  position: relative;
+	  width: 100%;
+	}
+	.specialty-column1-row1 {
+	  display: block;
+	  width: 100%;
+	}
+}
