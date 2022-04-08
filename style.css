@@ -558,7 +558,7 @@ video {
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
-/* ------------------MEDIA QUERY-LAPTOP---------------------- */
+/* ------------------MEDIA QUERY-DESKTOP---------------------- */
 
 @media screen and (min-width: 1400px) and (max-width: 1900px ) {
 
@@ -614,5 +614,65 @@ video {
 	.specialty-column1-row1 {
 	  display: block;
 	  width: 100%;
+	}
+	
+	/* -------------------CUSTOMER------------------  */
+	.pinkDots {
+	  margin-top: -20px;
+	}
+}
+
+
+/* ------------------MEDIA QUERY-LAPTOP---------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1400px ) {
+
+	body {
+	background-image: none;
+	}
+	
+	/* -------------------WELCOME------------------ */
+	.welcome {
+	  width: 100%;
+	  height: 580px;
+	}
+	.logo {
+	  width: 20%;
+	  padding-top: 100px;
+	}
+	.navListItem {
+	  padding:0 15px;
+	}
+	.welcome-row2 {
+	  padding: 0 0 0 100px;
+	}
+		h1 {
+	  font-size: 46px;
+	}
+	.search-box {
+	  width: 200px;
+	}
+	
+	/* -------------------DISCOVER------------------ */
+	.discover {
+	  width: 100%;
+		padding: 0 300px 0 475px;
+	}
+
+	/* -------------------SPECIALTY------------------  */
+	.specialty {
+	  width: 100%;
+	}
+
+	/* -------------------OPENING HOURS------------------  */
+	.openingHours {
+	  width: 100%;
+	}
+	/* -------------------CUSTOMER------------------  */
+	.customer {
+	  width: 100%;
+	}
+	.pinkDots {
+	  margin-top: -20px;
 	}
 }
