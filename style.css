@@ -1134,3 +1134,199 @@ video {
 			margin-top: -20px;
 		}
 }
+
+/* ------------------MEDIA QUERY-SMALL MOBILE PORTRAIT---------------------- */
+
+@media screen and (max-width: 500px) {
+
+	body {
+		background-image: none;
+	}
+	/* -------------------WELCOME------------------ */
+	.welcome {
+		width: 100%;
+		background-image: url(../images/fruit-flowers-crop-gradient-02.jpg);
+		background-position: right;
+		background-image:
+	}
+	.welcome-row1 {
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+	}
+	.welcome ul {
+		display: none;
+	}
+	.logo {
+		width: 35%;
+		padding-top: 20px;
+	}
+	.hamburger {
+		display: block;
+		width: 10%;
+	}
+	.welcome-row2 {
+		padding: 0 30px;
+
+	}
+	h1 {
+		font-size: 28px;
+		padding-bottom: 5px;
+		text-shadow: 1px 1px 1px white;
+	}
+	.search-box {
+		height: 30px;
+		width: 150px;
+	}
+	.welcome-button {
+		width: 60px;
+	}
+	.social-media {
+		display: flex;
+		flex-direction: column;
+	}
+	.facebook, .twitter, .instagram {
+		padding: 10px 0;
+	}
+
+	/* -------------------DISCOVER------------------ */
+	.discover {
+		width: 100%;
+		background-image: url(../images/pie-gradient.jpg);
+		background-position: right;
+		padding: 0 30px;
+	}
+	.discoverAbout {
+		font-size: 14px;
+	}
+	.discoverHeadline {
+		font-size: 28px;
+	}
+	.discoverParagraph {
+		text-shadow: 1px 1px 1px white;
+		line-height: 15px;
+	}
+	/* -------------------SPECIALTY------------------  */
+	.specialty {
+		width: 100%;
+		height: 2000px;
+	}
+	.specialtyAbout {
+		font-size: 14px;
+	}
+	.specialtyHeadline {
+		font-size: 28px;
+	}
+	.specialtyItem {
+		font-size: 12px;
+		padding-top: 15px;
+	}
+	.specialty-links {
+		padding: 0 10px 15px 10px;
+	}
+	.specialty-row2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 1700px;
+		gap: 1rem;
+	}
+	.specialty-column1, .specialty-column2, .specialty-column3, .specialty-column4 {
+		width: 100%;
+		height: 1600px;
+		gap: 1rem;
+		padding: 0 30px;
+	}
+	.specialty-column1-row1, .specialty-column1-row2, .specialty-column2-row1, .specialty-column2-row2, .specialty-column3-row1, .specialty-column3-row2, .specialty-column4-row1, .specialty-column4-row2 {
+		height: 200px;
+	}
+	.specialty-row3 {
+		display: none;
+	}
+	.image_title {
+		font-size: 18px;
+	}
+	.image_description {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	.image_stars {
+		width: 25%;
+		margin: 0;
+	}
+	.image_button {
+		width: 100px;
+		height: 30px;
+		font-size: 12px;
+	}
+
+	/* -------------------OPENING HOURS------------------  */
+	.openingHours {
+		width: 100%;
+		height: 600px;
+	}
+	.openingHours-row1 {
+		height: 200px;
+	}
+	.openingBook {
+		font-size: 14px;
+	}
+	.openingHeadline {
+		font-size: 28px;
+		padding-top: 5px;
+	}
+	.pinkTelephone {
+		padding-top: 10px;
+	}
+	.openingNumber {
+		font-size: 20px;
+		padding-top: 10px;
+	}
+	.openingHours-row2 {
+		padding: 20px 30px 0 30px;
+	}
+	.openingHoursTime {
+		padding-top: 15px;
+	}
+	.openingHoursDays-row, .openingHoursTime-row {
+		font-size: 12px;
+	}
+	.openingHours-row3 {
+		height: 300px;
+	}
+	video {
+		width: 80%;
+	}
+	.pinkArrow {
+		width: 8%;
+	}
+
+	/* -------------------CUSTOMER------------------  */
+	.customer {
+		width: 100%;
+		height: 500px;
+		padding: 0 30px;
+	}
+	.customerTestimonials {
+		font-size: 14px;
+	}
+	.customerHeadline {
+		font-size: 28px;
+		padding: 10px 0 20px 0;
+	}
+	.customerName {
+		font-size: 14px;
+	}
+	.customerParagraph {
+		line-height: 15px;
+	}
+	.pinkDots {
+		width: 20%;
+		margin-top: -10px;
+	}
+}
+
