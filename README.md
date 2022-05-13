@@ -12,6 +12,6 @@ The user is shown a creative homepage with sections consisting of background ima
 	
 
 ## Techs used:
-<p align="left"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-html5.png" alt="html5" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-CSS3.png" alt="css3" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-PS.png" alt="photoshop" width="40" height="40"/> </p>
+<p align="left"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-html5.png" alt="html5" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-CSS3.png" alt="css3" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-PS.png" alt="photoshop" width="80" height="80"/> </p>
 
 
